@@ -136,11 +136,11 @@ class PullJob:
         # Importing PDF class made in report.py
         pdf = PDF()
         pdf.set_title(f'{self.title} Job Report')
-        pdf.set_author('David Hay')
+        pdf.set_author('CSR')
         pdf.print_job(
             today, self.title, self.company, self.city,
             f'docs/{self.file}.txt', self.file, self.cwd)
-        pdf.output(f'{self.home}/Desktop/{self.file}.pdf')
+        pdf.output(f'{self.cwd}/report/{self.file}.pdf')
 
     def delete_files(self):
         all_docs = glob.glob(f'{self.cwd}/docs/*')
