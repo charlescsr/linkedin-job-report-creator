@@ -36,4 +36,10 @@ Now run `main.py` and when prompted paste the url and then what you would like t
 
 In a couple seconds your report will be done and saved in to your desktop!
 
+## My Updates
+* Changed requirements for Python 3.9
+* Edited creator.py since an error occured
+  
+ ### Output
+ ![image](https://user-images.githubusercontent.com/51647212/152953255-7a679c06-adc2-444d-8051-590116ce0f2d.png)
 
