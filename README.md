@@ -39,7 +39,11 @@ In a couple seconds your report will be done and saved in to your desktop!
 ## My Updates
 * Changed requirements for Python 3.9
 * Edited creator.py since an error occured
+* Converted to Gradio web app
   
- ### Output
- ![image](https://user-images.githubusercontent.com/51647212/152953255-7a679c06-adc2-444d-8051-590116ce0f2d.png)
+### Output
+#### CLI
+![image](https://user-images.githubusercontent.com/51647212/152953255-7a679c06-adc2-444d-8051-590116ce0f2d.png)
 
+#### Gradio App
+![image](https://user-images.githubusercontent.com/51647212/155072356-3512b006-14e0-4755-af88-c5aaa9616b59.png)
